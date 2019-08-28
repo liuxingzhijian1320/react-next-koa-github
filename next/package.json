@@ -1,12 +1,17 @@
 {
-  "name": "nextjs",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "zhooson",
-  "license": "MIT",
-  "dependencies": {
-    "next": "^9.0.5",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
-  }
+    "name": "nextjs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "next start",
+        "build": "next build",
+        "dev": "next"
+    },
+    "author": "zhooson",
+    "license": "MIT",
+    "dependencies": {
+        "next": "^9.0.5",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0"
+    }
 }
