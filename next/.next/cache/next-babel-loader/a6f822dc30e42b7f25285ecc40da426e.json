@@ -1,1 +1,0 @@
-{"ast":null,"code":"export default (function () {\n  return \"<span>test</span>\";\n});","map":{"version":3,"sources":["/Users/zhanghusheng/Documents/git/react-next-koa-github/next/pages/index.js"],"names":[],"mappings":"AAAA,gBAAe;AAAA;AAAA,CAAf","sourcesContent":["export default () => `<span>test</span>`"]},"metadata":{},"sourceType":"module"}
