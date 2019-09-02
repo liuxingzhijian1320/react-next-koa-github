@@ -4,9 +4,11 @@ import { composeWithDevTools } from 'redux-devtools-extension'
 
 import reducer from './reducer/index.js'
 
-const store = createStore(
-	reducer,
-	composeWithDevTools(applyMiddleware(thunk))
-)
-
-export default store
+export default function initiallizeStore (state){
+	const store = createStore(
+	  reducer,
+	  Object.assign({}, state),
+	  composeWithDevTools(applyMiddleware(thunk))
+    )
+    return store
+}
