@@ -42041,27 +42041,27 @@ function (_App) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                console.log('app init');
+                // console.log('app init') 
                 Component = ctx.Component;
                 pageProps = {};
 
                 if (!Component.getInitialProps) {
-                  _context.next = 7;
+                  _context.next = 6;
                   break;
                 }
 
-                _context.next = 6;
+                _context.next = 5;
                 return Component.getInitialProps(ctx);
 
-              case 6:
+              case 5:
                 pageProps = _context.sent;
 
-              case 7:
+              case 6:
                 return _context.abrupt("return", {
                   pageProps: pageProps
                 });
 
-              case 8:
+              case 7:
               case "end":
                 return _context.stop();
             }

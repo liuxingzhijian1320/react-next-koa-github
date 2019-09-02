@@ -1398,7 +1398,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_3___default.a {
   static async getInitialProps(ctx) {
-    console.log('app init');
+    // console.log('app init') 
     const {
       Component
     } = ctx;

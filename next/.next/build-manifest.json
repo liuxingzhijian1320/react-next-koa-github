@@ -17,6 +17,10 @@
     "/a": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+    ],
+    "/b": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

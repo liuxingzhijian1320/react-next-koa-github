@@ -12,7 +12,7 @@ import withRedux from '../lib/with-redux'
  class MyApp extends App {
 
   static async getInitialProps(ctx) {
-    console.log('app init')
+    // console.log('app init') 
     
     const { Component } = ctx
 
